@@ -1,0 +1,40 @@
+.SponsorsText{
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+   
+}
+.SponsorsDiv{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.SponsorsDiv img {
+    width: 70px;
+}
+
+@media (max-width: 800px){
+
+    .mainSponsors{
+        position: relative;
+        top: 300px;
+    }
+
+    .SponsorsDiv img {
+        width: 50px;
+    }
+    .SponsorsDiv{
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        box-sizing: border-box;
+    }
+}

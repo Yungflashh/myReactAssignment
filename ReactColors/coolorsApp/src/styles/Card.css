@@ -1,0 +1,153 @@
+.cardDiv{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    /* position: relative; */
+}
+
+.card{
+    background-color:#ededee;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+    
+    
+    
+    h4{
+        font-weight: 900;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-size: 18px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+/* #apple{
+    position: absolute;
+    left: 50px;
+}
+
+#android{
+    position: absolute;
+    left: 300px;
+}
+
+#figma{
+    position: absolute;
+    left: 550px;
+}
+
+#chrome{
+    position: absolute;
+    right: 280px;
+}
+
+#adobe{
+    position: absolute;
+    right: 40px;
+}
+
+#appStore{
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    transition: background-color 0.5s ease-in;
+    visibility: hidden;
+    
+}
+
+#appStore:hover{
+    background-color: lightblue;
+} */
+
+
+.card p{
+    width: 180px;
+    /* text-align: justify; */
+}
+.card img{
+    width: 50px;
+}
+.iconText{
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:800px){
+    .cardDiv{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px 0px;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-bottom: 900px;
+       position: static;
+    
+    }
+
+    .card{
+       /* display: none; */
+       width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+   
+    }
+
+    #apple{
+        position: static;
+        
+    }
+    
+    #android{
+        position: static;
+    }
+    
+    #figma{
+        position: static;
+    }
+    
+    #chrome{
+        position: static;
+    }
+    
+    #adobe{
+        position: static;
+    }
+    
+    #appStore{
+        position: static;
+        display: none;
+        
+    }
+    
+
+   
+}
