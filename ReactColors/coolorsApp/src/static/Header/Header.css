@@ -62,7 +62,7 @@ a:hover{
         position: absolute;
         flex-direction: column;
         top: 50px;
-        left: -150px;
+        left: 0px;
         background:rgb(243, 241, 241);
         width: 40%;
         height: 100vh;
@@ -73,9 +73,9 @@ a:hover{
         transition: left 0.3s ease ;
 }
 
-    .SideBar:hover {
+    /* .SideBar:hover {
         left: 0px; /* Slide in */
-    }
+     
 
 
 }
