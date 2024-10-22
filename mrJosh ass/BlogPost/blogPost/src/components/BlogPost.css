@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.blog-post {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .post-list {
+    max-width: 100%;
+    margin: auto;
+  }
+  
